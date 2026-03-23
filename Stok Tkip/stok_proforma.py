@@ -5,6 +5,7 @@ import datetime
 import os
 import sqlite3
 
+
 class db_manager:
     def __init__(self, db_name="stok_takip.db"):
         self.conn = sqlite3.connect(db_name)
